@@ -3,7 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-var mongoConn = require("./schemas/index")();//인덱스는 안적어도 된댕 원래 자동이랭!인덱스만ㅋㅋ
+var mongoConn = require("./schemas")();//인덱스는 안적어도 된댕 원래 자동이랭!인덱스만ㅋㅋ
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');

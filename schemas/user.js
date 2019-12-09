@@ -16,4 +16,4 @@ const userSchema = new Schema({
   }
 });
 
-module.exports = mongoose.model("User",userSchema);
+module.exports = mongoose.model("User",userSchema); // 몽구스의 Schema로 만든 userSchema를 User라는 이름으로 배출
